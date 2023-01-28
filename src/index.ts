@@ -133,4 +133,12 @@ const getArray = <T>(items: T[]): T[] => new Array().concat(items)
 let numArray = getArray<number>([1,2,3,4,5,6])
 let strArray = getArray<string>(['1','2','3','4','5','6'])
 
+type Grade = 'Pass' | 'Fail'
+
+let grade: Grade = 'Fail'
+let score: Grade = 'Pass'
+
+
+
 strArray.push('Heyyy')
+
